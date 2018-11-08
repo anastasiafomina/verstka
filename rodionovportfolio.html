@@ -2,28 +2,44 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="normalize.css">
+    <meta charset="utf-8" />
     <title>Курс по фронтэнду 1.5</title>
-        <style>
-        .headerstyle {
-            color: white;
-            background-color: #FD739C;
-        }
-        .fontsansserif {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .mainfontstyle {
+    <style>
+        body {
+            font-size: 22px;
             line-height: 34px;
         }
-    
+
+        header {
+            color: white;
+            background-color: #FD739C;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 100px 0px 50px;
+        }
+
+        h1 {font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .section-whoami {
+            padding-top: 50px;
+        }
+
+
     </style>
 </head>
 
-<body class="mainfontstyle">
-    <nav> 
-        <a href="#whoami">Кто я такой</a>
-    </nav>
-    <header class="headerstyle">
-        <h1 class="fontsansserif">
+<body>
+    <header>
+        <nav> 
+            <a href="#whoami">Кто я такой</a>
+        </nav>
+        <h1>
             Курс по фронтэнду. 
         <br> Версия 1.5
         </h1>
@@ -31,8 +47,8 @@
     </header>
 
     <main>
-        <section id="whoami">
-            <h2 class="fontsansserif">Кто я такой</h2>
+        <section class="section-whoami" id="whoami">
+            <h2>Кто я такой</h2>
             <p>Меня зовут Евгений Родионов, и я учу людей фронтэнду</p>
             <p>
                 Я руководил разработкой Рублёвки.ру и обучил команду, 
@@ -55,7 +71,7 @@
         </section>
 
         <section>
-            <h2 class="fontsansserif">Ченджлог к версии 1.5</h2>
+            <h2>Ченджлог к версии 1.5</h2>
             <p>
                 Я провел 4 потока и понял узкие места курса.
                 Да, люди добивались своих целей - находили работу или запускают продукты,
@@ -79,6 +95,6 @@
             </ul>
         </section>
     </main>
-  </body>
+</body>
   
 </html>
